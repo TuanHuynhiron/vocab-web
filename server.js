@@ -128,7 +128,7 @@ app.get("/add", (req, res) => {
     </script>
     <body>
 
-    <h2>➕ Thêm từ vựng</h2>
+    <h2>➕ Thêm từ vựng nha</h2>
 
     <form method="POST" action="/add">
 
