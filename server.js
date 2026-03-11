@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // File lưu ở ổ D
-const FILE_PATH = "D:/vocab.json";
+const FILE_PATH = "./vocab.json";
 
 // Đảm bảo file tồn tại
 if (!fs.existsSync(FILE_PATH)) {
